@@ -108,4 +108,8 @@ int main() {
         if (emergencyDetected) {
             currentGreen = 0; 
         }
+
 }
+cap.release();
+destroyAllWindows();
+return 0;}
